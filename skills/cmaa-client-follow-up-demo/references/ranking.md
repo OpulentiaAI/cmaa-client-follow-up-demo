@@ -21,7 +21,7 @@ Tie-break equal scores by putting clients without a scheduled follow-up first. P
 - Casa Verde Facilities scores 62 and ranks second.
 - Mekong Kitchen Collective scores 55 and ranks third.
 - Hanul Commerce Studio scores 18 and ranks fourth.
-- Every nonzero factor appears in the visual and Documents explanation.
+- Every nonzero factor appears in the Documents ranking and explanation.
 - Story matching returns Chicago Flavas for the primary APEX scenario.
 
-If a calculated total differs, stop and reconcile the JSON fields against this table before producing screenshots.
+If a calculated total differs, stop and reconcile the JSON fields against this table before finalizing the Document.

@@ -27,10 +27,10 @@ The advisor journey should make this sequence obvious:
 
 1. Context.dev resolves the bundled company identities and records discovery confidence.
 2. Browser research captures current activity and screenshots from the discovered sites.
-3. RAMP ranks first, with every point explained from the JSON.
-4. A desktop and narrow screenshot show the same ranked queue.
+3. RAMP ranks first in the Documents table, with every point explained from the JSON.
+4. Browser screenshots supporting current activity are embedded beside the findings.
 5. CMAA's Chicago Flavas outcome supplies relevant proof.
-6. The Documents brief gives the advisor a follow-up draft and suggested appointment windows.
+6. The same Documents brief gives the advisor a follow-up draft and suggested appointment windows.
 
 ## Supporting clients
 
