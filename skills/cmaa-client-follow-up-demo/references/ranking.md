@@ -15,22 +15,13 @@ Calculate the score from visible record fields. Cap the total at 100 and sort de
 
 Tie-break equal scores by putting clients without a scheduled follow-up first. Preserve stable source order after that.
 
-## Scheduling transition
+## Required calculation checks
 
-Approval must:
+- RAMP Manufacturing scores 92 and ranks first.
+- Casa Verde Facilities scores 62 and ranks second.
+- Mekong Kitchen Collective scores 55 and ranks third.
+- Hanul Commerce Studio scores 18 and ranks fourth.
+- Every nonzero factor appears in the visual and Documents explanation.
+- Story matching returns Chicago Flavas for the primary APEX scenario.
 
-1. set `hasScheduledFollowUp` to `true`;
-2. set the follow-up state and selected time;
-3. clear overdue commitments represented by the approved follow-up;
-4. change the next milestone to the scheduled session;
-5. recalculate the score and queue order.
-
-Scheduling does not erase inactivity, an uncompleted first meeting, intake gaps, or a real deadline. The remaining score should continue to explain those unresolved conditions.
-
-## Minimum tests
-
-- the primary RAMP fixture ranks first before scheduling;
-- every nonzero factor appears in the explanation;
-- scheduling lowers RAMP's score;
-- an unresolved client outranks RAMP when the resulting scores tie;
-- story matching returns Chicago Flavas for the primary APEX scenario.
+If a calculated total differs, stop and reconcile the JSON fields against this table before producing screenshots.

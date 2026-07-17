@@ -1,8 +1,10 @@
 # Demo Scenario
 
+The fixed intake snapshot is `../assets/cmaa-clients.json`. Do not recreate or mutate it during a demo.
+
 ## Primary client
 
-Use this as a public-evidence-plus-synthetic-record fixture:
+The bundled JSON contains this public-evidence-plus-synthetic-record fixture:
 
 | Field | Value |
 | --- | --- |
@@ -23,19 +25,19 @@ The Neoserra fields above are simulated. RAMP's public government and military p
 
 The advisor journey should make this sequence obvious:
 
-1. RAMP begins at the top of the queue.
-2. The score explanation shows inactivity, missing follow-up, missing first meeting, deadline pressure, incomplete intake, and a current business signal.
-3. Research surfaces source-backed government-contracting positioning.
-4. CMAA's Chicago Flavas outcome supplies relevant proof.
-5. The advisor edits the message, selects a time, and approves it.
-6. RAMP becomes scheduled, its score drops, and the queue re-ranks.
+1. Context.dev resolves the bundled company identities and records discovery confidence.
+2. Browser research captures current activity and screenshots from the discovered sites.
+3. RAMP ranks first, with every point explained from the JSON.
+4. A desktop and narrow screenshot show the same ranked queue.
+5. CMAA's Chicago Flavas outcome supplies relevant proof.
+6. The Documents brief gives the advisor a follow-up draft and suggested appointment windows.
 
 ## Supporting clients
 
-Create three synthetic records that exercise different branches:
+The bundled JSON includes three synthetic records that exercise different branches:
 
 - a National ACE restaurant client waiting on cash-flow statements;
 - a Spanish-speaking APEX facilities client blocked on SAM.gov renewal;
 - an SBDC professional-services client with a follow-up already scheduled.
 
-Keep these records visibly synthetic and free of real personal information.
+Keep unresolved public identities labeled `Unresolved`; do not invent websites for the synthetic businesses.

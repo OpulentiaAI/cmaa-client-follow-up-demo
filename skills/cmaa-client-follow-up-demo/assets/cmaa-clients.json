@@ -1,0 +1,126 @@
+{
+  "fixture": {
+    "name": "CMAA post-intake follow-up queue",
+    "generatedFor": "demonstration only",
+    "dataClassification": "synthetic CRM fields with public company identities",
+    "asOf": "2026-07-17"
+  },
+  "clients": [
+    {
+      "id": "ramp-manufacturing",
+      "recordId": "DEMO-NEO-141-0742",
+      "businessName": "RAMP Manufacturing / LITEBAND",
+      "domain": "rampmfg.com",
+      "location": "Arlington Heights, IL",
+      "program": "APEX",
+      "requestedSupport": "Government contracting readiness",
+      "intakeStage": "Accepted pre-client",
+      "assignedAdvisor": "Ian Quan",
+      "preferredLanguage": "English",
+      "lastTouch": "2026-07-08",
+      "nextMilestone": "First APEX strategy session",
+      "storyTags": [
+        "APEX",
+        "government-contracting",
+        "first-award",
+        "manufacturing"
+      ],
+      "attention": {
+        "daysSinceLastTouch": 9,
+        "overdueCommitments": 1,
+        "hasScheduledFollowUp": false,
+        "needsFirstMeeting": true,
+        "opportunityDeadlineDays": 12,
+        "incompleteIntakeFields": 2,
+        "hasCurrentActivitySignal": true
+      }
+    },
+    {
+      "id": "mekong-kitchen",
+      "recordId": "DEMO-NEO-141-0736",
+      "businessName": "Mekong Kitchen Collective",
+      "domain": null,
+      "location": "Chicago, IL",
+      "program": "National ACE",
+      "requestedSupport": "Capital readiness and lease expansion",
+      "intakeStage": "Advisor assigned",
+      "assignedAdvisor": "Jin Lee",
+      "preferredLanguage": "Vietnamese",
+      "lastTouch": "2026-07-10",
+      "nextMilestone": "Upload cash-flow statements",
+      "storyTags": [
+        "National ACE",
+        "capital-readiness",
+        "grant",
+        "restaurant"
+      ],
+      "attention": {
+        "daysSinceLastTouch": 7,
+        "overdueCommitments": 1,
+        "hasScheduledFollowUp": false,
+        "needsFirstMeeting": false,
+        "opportunityDeadlineDays": 19,
+        "incompleteIntakeFields": 1,
+        "hasCurrentActivitySignal": false
+      }
+    },
+    {
+      "id": "casa-verde",
+      "recordId": "DEMO-NEO-141-0728",
+      "businessName": "Casa Verde Facilities",
+      "domain": null,
+      "location": "Berwyn, IL",
+      "program": "APEX",
+      "requestedSupport": "SAM renewal and bid matching",
+      "intakeStage": "Counseling active",
+      "assignedAdvisor": "Marc Tudor",
+      "preferredLanguage": "Spanish",
+      "lastTouch": "2026-07-11",
+      "nextMilestone": "Confirm SAM renewal owner",
+      "storyTags": [
+        "APEX",
+        "government-contracting",
+        "certification",
+        "services"
+      ],
+      "attention": {
+        "daysSinceLastTouch": 6,
+        "overdueCommitments": 2,
+        "hasScheduledFollowUp": false,
+        "needsFirstMeeting": false,
+        "opportunityDeadlineDays": 27,
+        "incompleteIntakeFields": 0,
+        "hasCurrentActivitySignal": false
+      }
+    },
+    {
+      "id": "hanul-commerce",
+      "recordId": "DEMO-NEO-141-0719",
+      "businessName": "Hanul Commerce Studio",
+      "domain": null,
+      "location": "Chicago, IL",
+      "program": "SBDC",
+      "requestedSupport": "B2B sales strategy",
+      "intakeStage": "First session complete",
+      "assignedAdvisor": "Jin Lee",
+      "preferredLanguage": "Korean",
+      "lastTouch": "2026-07-12",
+      "nextMilestone": "Review first target-account list",
+      "storyTags": [
+        "SBDC",
+        "B2B",
+        "revenue-growth",
+        "consulting"
+      ],
+      "attention": {
+        "daysSinceLastTouch": 5,
+        "overdueCommitments": 0,
+        "hasScheduledFollowUp": true,
+        "needsFirstMeeting": false,
+        "opportunityDeadlineDays": null,
+        "incompleteIntakeFields": 0,
+        "hasCurrentActivitySignal": true
+      }
+    }
+  ]
+}
