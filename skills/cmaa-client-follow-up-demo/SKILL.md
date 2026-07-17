@@ -15,7 +15,7 @@ Run one advisor-ready research workflow without building an application. The moc
 
 3. **Discover with Context.dev.** Resolve each company from its domain or name and location, record the canonical domain, company description, likely NAICS codes, and discovery confidence, and preserve the raw Context.dev result as an artifact. Finish when every client is resolved or labeled `Unresolved`; never substitute browser guessing for discovery.
 
-4. **Research in the browser.** Use browser automation to visit the discovered company site and relevant public pages. Capture only current, explicitly stated activity that creates a timely reason to reconnect: contracts, buyers, partners, certifications, products, hiring, expansion, or deadlines. Finish when every signal has a URL, observed date, and browser screenshot ready to embed in Documents.
+4. **Research in the browser.** Use browser automation to visit the discovered company site and relevant public pages. Capture only current, explicitly stated activity that creates a timely reason to reconnect: contracts, buyers, partners, certifications, products, hiring, expansion, or deadlines. Select one representative evidence point and capture exactly one browser screenshot per researched client. Finish when each finding has a URL, observed date, and its single screenshot ready to embed in Documents.
 
 5. **Rank transparently.** Apply [references/ranking.md](references/ranking.md) to the JSON fields, sort highest need first, and retain each point contribution. Finish when the total can be recalculated from the displayed factors.
 
@@ -32,7 +32,7 @@ Run one advisor-ready research workflow without building an application. The moc
 One `CMAA Client Follow-Up Brief` in the Documents pane containing:
 
 - raw Context.dev discovery results and the normalized discovery table;
-- browser-research notes, source URLs, observed dates, and embedded screenshots;
+- browser-research notes, source URLs, observed dates, and one embedded screenshot per researched client;
 - the ranked client table and every score contribution;
 - matched, source-backed success stories;
 - advisor follow-up drafts and scheduling recommendations;
@@ -46,6 +46,7 @@ The native Documents scratchpad must close with the final brief's Document ID an
 - Use Context.dev for discovery and the browser for research. Keep those evidence lanes distinct.
 - Mark absent evidence `Unknown` and failed discovery `Unresolved`.
 - Preserve raw results and screenshot evidence inside Documents rather than a code repository or separate report.
+- Use one browser screenshot per researched client; choose the strongest evidence point rather than collecting variants.
 - Build no HTML artifact, Next.js route, dashboard, database, connector, or production write-back.
 - Treat scheduling as an advisor recommendation unless an authorized calendar connector is present.
 
